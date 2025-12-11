@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/minformacion"
+        android:icon="@drawable/ic_film"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mfavoritos"
+        android:icon="@drawable/ic_heart"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/manadir"
+        android:icon="@drawable/ic_add"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mvista"
+        android:icon="@drawable/ic_one"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mverfav"
+        android:icon="@drawable/ic_heartbreak"
+        android:title="Item"
+        app:showAsAction="always" />
+</menu>

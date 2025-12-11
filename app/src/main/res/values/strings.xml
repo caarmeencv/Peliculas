@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Películas</string>
+    <string name="titulo">Título: </string>
+    <string name="director">Director: </string>
+    <string name="duracion">Duración: </string>
+    <string name="sala">Sala: </string>
+    <string name="edades">Clasificación por edades: </string>
+    <string name="estreno">Fecha de estreno: </string>
+    <string name="fecha">Fecha: </string>
+    <string name="granvia">Gran Vía</string>
+    <string name="travesia">Travesía</string>
+    <string name="plazaelip">Plaza Elíptica</string>
+    <string name="vialia">Vialia</string>
+    <string name="multicinesn">Multicines Norte</string>
+    <string name="g">G</string>
+    <string name="pg">PG</string>
+    <string name="r">R</string>
+    <string name="pg13">PG-13</string>
+    <string name="nc17">NC-17</string>
+    <string name="introducetitulo"> Introduce el título</string>
+    <string name="introducedirector"> Introduce el director</string>
+    <string name="introduceduracion"> Introduce la duración</string>
+    <string name="nuevapeli">Nueva película</string>
+</resources>

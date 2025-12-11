@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="4dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="4dp"
+    android:background="@color/celda">
+
+    <ImageView
+        android:id="@+id/ivimagen2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/interstellar" />
+
+    <TextView
+        android:id="@+id/tvtitulo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Titulo"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/ivimagen2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/director"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/director"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/tvtitulo2"
+        app:layout_constraintTop_toBottomOf="@+id/tvtitulo2" />
+
+    <TextView
+        android:id="@+id/fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/fecha"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/director"
+        app:layout_constraintTop_toBottomOf="@+id/director" />
+
+    <TextView
+        android:id="@+id/duracion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/duracion"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/fecha"
+        app:layout_constraintTop_toBottomOf="@+id/fecha" />
+
+    <TextView
+        android:id="@+id/sala"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/sala"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/duracion"
+        app:layout_constraintTop_toBottomOf="@+id/duracion" />
+
+    <TextView
+        android:id="@+id/tvdirector2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="director"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/tvfecha2"
+        app:layout_constraintTop_toTopOf="@+id/director" />
+
+    <TextView
+        android:id="@+id/tvfecha2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fecha"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/tvduracion2"
+        app:layout_constraintTop_toTopOf="@+id/fecha" />
+
+    <TextView
+        android:id="@+id/tvduracion2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="duracion"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/duracion"
+        app:layout_constraintTop_toTopOf="@+id/duracion" />
+
+    <TextView
+        android:id="@+id/tvsala2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sala"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/tvduracion2"
+        app:layout_constraintTop_toTopOf="@+id/sala" />
+
+    <ImageView
+        android:id="@+id/ivclasi2"
+        android:layout_width="71dp"
+        android:layout_height="28dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/g" />
+
+    <ImageView
+        android:id="@+id/ivfav"
+        android:layout_width="27dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@+id/sala"
+        app:layout_constraintTop_toBottomOf="@+id/sala"
+        app:srcCompat="@drawable/ic_heartfav" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

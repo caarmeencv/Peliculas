@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner">
+        <item>@string/granvia</item>
+        <item>@string/travesia</item>
+        <item>@string/plazaelip</item>
+        <item>@string/vialia</item>
+        <item>@string/multicinesn</item>
+    </string-array>
+</resources>
